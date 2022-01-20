@@ -26,5 +26,5 @@ mkdir Logs/Prediction
 mkdir Logs/Preprocessing
 mkdir Logs/Training
 
-### prediction-model-aai.ipynb file is used to train the model
-### train-model-aai.ipynb file is used for model prediction
+### train-model-aai.ipynb file is used to train the model
+### prediction-model-aai.ipynb file is used for model prediction
