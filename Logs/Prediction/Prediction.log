@@ -1,0 +1,23 @@
+2022-01-20 21:29:58,059 : INFO : sLogger : common : ReadCSVData - (66) : File path to read file : Data/RAW\test_set.csv
+2022-01-20 21:29:58,177 : INFO : sLogger : <ipython-input-5-ab8d2753a8c1> : <module> - (4) : All the column from dataframe is numeric data type, so no need to process for data type conversion
+2022-01-20 21:29:58,207 : INFO : sLogger : <ipython-input-6-eb58f80787b3> : <module> - (10) : Dataset doesn't contain null value in any of the columns
+2022-01-20 21:29:58,451 : INFO : sLogger : predictFromModel : predictionFromModel - (21) : Start of Prediction
+2022-01-20 21:29:58,452 : INFO : sLogger : file_methods : load_model - (61) : Entered the load_model method of the File_Operation class
+2022-01-20 21:29:58,453 : INFO : sLogger : file_methods : load_model - (65) : Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-01-20 21:29:58,496 : INFO : sLogger : file_methods : find_correct_model_file - (83) : Entered the find_correct_model_file method of the File_Operation class
+2022-01-20 21:29:58,497 : INFO : sLogger : file_methods : find_correct_model_file - (96) : Exited the find_correct_model_file method of the Model_Finder class.
+2022-01-20 21:29:58,497 : INFO : sLogger : file_methods : load_model - (61) : Entered the load_model method of the File_Operation class
+2022-01-20 21:29:58,498 : INFO : sLogger : file_methods : load_model - (65) : Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2022-01-20 21:29:58,666 : INFO : sLogger : file_methods : find_correct_model_file - (83) : Entered the find_correct_model_file method of the File_Operation class
+2022-01-20 21:29:58,667 : INFO : sLogger : file_methods : find_correct_model_file - (96) : Exited the find_correct_model_file method of the Model_Finder class.
+2022-01-20 21:29:58,667 : INFO : sLogger : file_methods : load_model - (61) : Entered the load_model method of the File_Operation class
+2022-01-20 21:29:58,668 : INFO : sLogger : file_methods : load_model - (65) : Model File RandomForest1 loaded. Exited the load_model method of the Model_Finder class
+2022-01-20 21:29:58,733 : INFO : sLogger : file_methods : find_correct_model_file - (83) : Entered the find_correct_model_file method of the File_Operation class
+2022-01-20 21:29:58,734 : INFO : sLogger : file_methods : find_correct_model_file - (96) : Exited the find_correct_model_file method of the Model_Finder class.
+2022-01-20 21:29:58,734 : INFO : sLogger : file_methods : load_model - (61) : Entered the load_model method of the File_Operation class
+2022-01-20 21:29:58,734 : INFO : sLogger : file_methods : load_model - (65) : Model File RandomForest2 loaded. Exited the load_model method of the Model_Finder class
+2022-01-20 21:29:58,764 : INFO : sLogger : file_methods : find_correct_model_file - (83) : Entered the find_correct_model_file method of the File_Operation class
+2022-01-20 21:29:58,764 : INFO : sLogger : file_methods : find_correct_model_file - (96) : Exited the find_correct_model_file method of the Model_Finder class.
+2022-01-20 21:29:58,765 : INFO : sLogger : file_methods : load_model - (61) : Entered the load_model method of the File_Operation class
+2022-01-20 21:29:58,771 : INFO : sLogger : file_methods : load_model - (65) : Model File RandomForest3 loaded. Exited the load_model method of the Model_Finder class
+2022-01-20 21:29:58,784 : INFO : sLogger : predictFromModel : predictionFromModel - (57) : End of Prediction

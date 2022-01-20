@@ -1,0 +1,45 @@
+2022-01-20 21:26:01,001 : INFO : sLogger : trainingModel : trainingModel - (28) : Start of Training
+2022-01-20 21:26:01,017 : INFO : sLogger : modelTuner : get_best_model - (127) : Entered the get_best_model method of the Model_Finder class
+2022-01-20 21:26:01,017 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (78) : Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:26:57,511 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (102) : XGBoost best params for cluster 0: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:26:57,529 : INFO : sLogger : modelTuner : get_best_model - (139) : Cluster 0 AUC for XGBoost: 0.9413551272847754
+2022-01-20 21:26:57,530 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (34) : Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:27:09,914 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (56) : Random Forest best params for cluster 0 : {'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:27:09,958 : INFO : sLogger : modelTuner : get_best_model - (150) : Cluster 0 AUC for RF: 0.8678385057153901
+2022-01-20 21:27:09,958 : INFO : sLogger : modelTuner : get_best_model - (154) : XGBoost is best model for cluster 0 with score 0.9413551272847754
+2022-01-20 21:27:09,959 : INFO : sLogger : file_methods : save_model - (31) : Entered the save_model method of the File_Operation class
+2022-01-20 21:27:09,982 : INFO : sLogger : file_methods : save_model - (42) : Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-01-20 21:27:09,983 : INFO : sLogger : trainingModel : trainingModel - (53) : Successful End of Training
+2022-01-20 21:27:09,991 : INFO : sLogger : modelTuner : get_best_model - (127) : Entered the get_best_model method of the Model_Finder class
+2022-01-20 21:27:09,991 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (78) : Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:27:32,980 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (102) : XGBoost best params for cluster 2: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:27:32,990 : INFO : sLogger : modelTuner : get_best_model - (139) : Cluster 2 AUC for XGBoost: 0.9712918660287081
+2022-01-20 21:27:32,990 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (34) : Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:27:43,591 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (56) : Random Forest best params for cluster 2 : {'criterion': 'gini', 'max_depth': 3, 'max_features': 'log2', 'n_estimators': 130}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:27:43,608 : INFO : sLogger : modelTuner : get_best_model - (150) : Cluster 2 AUC for RF: 0.9712918660287081
+2022-01-20 21:27:43,609 : INFO : sLogger : modelTuner : get_best_model - (157) : RandomForest is best model for cluster 2 with score 0.9712918660287081
+2022-01-20 21:27:43,609 : INFO : sLogger : file_methods : save_model - (31) : Entered the save_model method of the File_Operation class
+2022-01-20 21:27:43,615 : INFO : sLogger : file_methods : save_model - (42) : Model File RandomForest2 saved. Exited the save_model method of the Model_Finder class
+2022-01-20 21:27:43,616 : INFO : sLogger : trainingModel : trainingModel - (53) : Successful End of Training
+2022-01-20 21:27:43,619 : INFO : sLogger : modelTuner : get_best_model - (127) : Entered the get_best_model method of the Model_Finder class
+2022-01-20 21:27:43,619 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (78) : Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:27:57,359 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (102) : XGBoost best params for cluster 1: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:27:57,370 : INFO : sLogger : modelTuner : get_best_model - (139) : Cluster 1 AUC for XGBoost: 0.9
+2022-01-20 21:27:57,371 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (34) : Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:28:05,310 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (56) : Random Forest best params for cluster 1 : {'criterion': 'gini', 'max_depth': 3, 'max_features': 'log2', 'n_estimators': 130}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:28:05,331 : INFO : sLogger : modelTuner : get_best_model - (150) : Cluster 1 AUC for RF: 0.9
+2022-01-20 21:28:05,331 : INFO : sLogger : modelTuner : get_best_model - (157) : RandomForest is best model for cluster 1 with score 0.9
+2022-01-20 21:28:05,332 : INFO : sLogger : file_methods : save_model - (31) : Entered the save_model method of the File_Operation class
+2022-01-20 21:28:05,339 : INFO : sLogger : file_methods : save_model - (42) : Model File RandomForest1 saved. Exited the save_model method of the Model_Finder class
+2022-01-20 21:28:05,339 : INFO : sLogger : trainingModel : trainingModel - (53) : Successful End of Training
+2022-01-20 21:28:05,342 : INFO : sLogger : modelTuner : get_best_model - (127) : Entered the get_best_model method of the Model_Finder class
+2022-01-20 21:28:05,342 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (78) : Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:28:18,161 : INFO : sLogger : modelTuner : get_best_params_for_xgboost - (102) : XGBoost best params for cluster 3: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-01-20 21:28:18,171 : INFO : sLogger : modelTuner : get_best_model - (136) : Cluster 3 Accuracy for XGBoost: 1.0
+2022-01-20 21:28:18,171 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (34) : Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:28:26,715 : INFO : sLogger : modelTuner : get_best_params_for_random_forest - (56) : Random Forest best params for cluster 3 : {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-01-20 21:28:26,718 : INFO : sLogger : modelTuner : get_best_model - (147) : Cluster 3 Accuracy for RF: 1.0
+2022-01-20 21:28:26,719 : INFO : sLogger : modelTuner : get_best_model - (157) : RandomForest is best model for cluster 3 with score 1.0
+2022-01-20 21:28:26,719 : INFO : sLogger : file_methods : save_model - (31) : Entered the save_model method of the File_Operation class
+2022-01-20 21:28:26,721 : INFO : sLogger : file_methods : save_model - (42) : Model File RandomForest3 saved. Exited the save_model method of the Model_Finder class
+2022-01-20 21:28:26,721 : INFO : sLogger : trainingModel : trainingModel - (53) : Successful End of Training

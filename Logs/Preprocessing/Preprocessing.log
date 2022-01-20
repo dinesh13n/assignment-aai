@@ -1,0 +1,12 @@
+2022-01-20 21:25:49,731 : INFO : sLogger : common : ReadCSVData - (66) : File path to read file : Data/RAW\training_set.csv
+2022-01-20 21:25:49,894 : INFO : sLogger : <ipython-input-5-e17fe9471d1f> : <module> - (4) : All the column from dataframe is numeric data type, so no need to process for data type conversion
+2022-01-20 21:25:49,919 : INFO : sLogger : <ipython-input-6-0447ad750423> : <module> - (10) : Dataset doesn't contain null value in any of the columns
+2022-01-20 21:25:55,720 : INFO : sLogger : preprocessing : vif_data - (86) : Entered the vif_data method of the Preprocessor class
+2022-01-20 21:25:57,083 : INFO : sLogger : preprocessing : vif_data - (97) : feature VIF calculation Successful. Exited the vif_data method of the Preprocessor class
+2022-01-20 21:25:57,246 : INFO : sLogger : preprocessing : clustering_kmeans - (116) : Entered the kmeans clustering method of the Preprocessor class
+2022-01-20 21:25:57,252 : INFO : sLogger : clustering : elbow_plot - (34) : Entered the elbow_plot method of the KMeansClustering class
+2022-01-20 21:26:00,609 : INFO : sLogger : clustering : elbow_plot - (49) : The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-01-20 21:26:00,610 : INFO : sLogger : clustering : create_clusters - (69) : Entered the create_clusters method of the KMeansClustering class
+2022-01-20 21:26:00,771 : INFO : sLogger : file_methods : save_model - (31) : Entered the save_model method of the File_Operation class
+2022-01-20 21:26:00,779 : INFO : sLogger : file_methods : save_model - (42) : Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-01-20 21:26:00,782 : INFO : sLogger : clustering : create_clusters - (81) : succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
